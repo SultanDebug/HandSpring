@@ -185,6 +185,7 @@ public class MyDispatcherServlet extends HttpServlet{
     }
 
     //类名首字母小写
+    //文件夹移动测试
     private String lowerFirstCase(String name){
         char[] chars = name.toCharArray();
         //chars[0] += 32;
